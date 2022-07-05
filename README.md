@@ -32,7 +32,6 @@
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
 - React.js
-- graphql
 - Javascript
 - CSS
 
