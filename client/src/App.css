@@ -914,8 +914,10 @@ ul li {
     width: 100vw;
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    
   }
 
   .back-img-2 {
@@ -924,18 +926,20 @@ ul li {
     width: 100vw;
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
 
   .back-img-3 {
     background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.4)),
-      url("../src/imgs/barIPAHandle.PNG");
+      url("../src/imgs/barPicSmall.jpg");
     width: 100vw;
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
 
   .back-img-4 {
@@ -944,8 +948,9 @@ ul li {
     width: 100vw;
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
 
   .bgm-img-menu {
