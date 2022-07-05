@@ -4,6 +4,7 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 import { Carousel } from "react-bootstrap";
 
 
+
 export default function Home() {
   return (
     <>
@@ -37,7 +38,7 @@ export default function Home() {
 
           <Carousel.Item>
             <img
-              className="d-block   back-img-3"
+              className="d-block w-100  back-img-3"
               aria-label="Locals at Sweeneys Bar"
               // alt="Locals at Sweeney's Bar"
             />
