@@ -2,10 +2,17 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import FadeIn from "react-fade-in/lib/FadeIn";
 import { Carousel } from "react-bootstrap";
+import outsidePicSmall from '../../imgs/outsidePicSmall.jpg'
+import outsidePic from '../../imgs/outsidePic.jpg'
+import fishPic from '../../imgs/fishPic.jpg'
+import BarPic from '../../imgs/barPic.jpg'
+import WhiskeyPic from '../../imgs/WhiskeyPic.jpg'
 
 
 
 export default function Home() {
+
+
   return (
     <>
       <Helmet>
@@ -13,21 +20,23 @@ export default function Home() {
       </Helmet>
 
       <FadeIn>
-        <Carousel className="main-container carousel-fade" data-interval="5">
-          <Carousel.Item>
-            <img 
-              className="d-block back-img"  
-              alt="Sweeney's Rockfeller Dish"
-            />
-            <Carousel.Caption className="carousel-flex">
+
+
+       
+        <Carousel className=" carousel-fade " >
+         
+          <Carousel.Item className="background-pics">
+            <img className="scroll-pics" src={outsidePic} alt="" />
+             <Carousel.Caption className="carousel-flex">
               <h1 className="title-font">Rated Best Seafood</h1>
               <h1 className="sub-title">In Dayton</h1>
             </Carousel.Caption>
           </Carousel.Item>
+        
 
-          <Carousel.Item>
-            <img
-              className="d-block w-100 back-img-2"
+          <Carousel.Item className="background-pics">
+            <img src={fishPic}
+              className='scroll-pics'
               alt="Sweeney's Fish Mascot"
             />
             <Carousel.Caption className="carousel-flex">
@@ -36,9 +45,9 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="d-block w-100  back-img-3"
+          <Carousel.Item className="background-pics">
+            <img src={BarPic}
+              className='scroll-pics'
               aria-label="Locals at Sweeneys Bar"
               // alt="Locals at Sweeney's Bar"
             />
@@ -49,9 +58,9 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className="d-block w-100 back-img-4"
+          <Carousel.Item className="background-pics">
+            <img src={WhiskeyPic}
+              className='scroll-pics'
               alt="Sweeney's Whiskey Selection"
             />
             <Carousel.Caption>
@@ -62,7 +71,7 @@ export default function Home() {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>
+        </Carousel> 
       </FadeIn>
     </>
   );

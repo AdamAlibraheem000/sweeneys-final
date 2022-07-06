@@ -69,6 +69,23 @@ body {
 
 /* background Image */
 
+.scroll-pics{
+  height: 100%;
+  width: 100%;
+   
+}
+
+.background-pics{
+  background-color: #370624;
+ height: 80vh;
+ width: 100vw;
+ border: 3px solid black;
+ /* display: flex;
+ align-items: center;
+ justify-content: center; */
+  
+}
+
 .back-img {
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.4)),
     url("../src/imgs/rockfeller.jpg");
