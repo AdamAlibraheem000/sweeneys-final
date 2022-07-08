@@ -1,8 +1,15 @@
-import React from 'react';
+import {useEffect} from 'react';
 import {Helmet} from 'react-helmet';
 import FadeIn from 'react-fade-in/lib/FadeIn';
 
-export default function Contact() {
+export default function Menu() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
+  
+  
+  
   return (
     <>
     <Helmet>
@@ -26,7 +33,7 @@ export default function Contact() {
             <li><a href="#salad">Salads and Greens</a></li>
             <li><a href="#sides-section">House-Made Sides</a></li>
             <li><a href="#desserts-section">House-Made Desserts</a></li>
-            <li><a href='#Childrens Menu'>Children’s Menu</a></li>
+            <li><a href='#childrens-menu'>Children’s Menu</a></li>
           </ul>
         </div>
       </article>
@@ -414,9 +421,9 @@ export default function Contact() {
           Creme Brulee, Caramel Cheesecake, Chocolate Peanut Butter Pie, Keylime Pie, Check Features for Seasonal Desserts!
           </p>
         </section>
-        <section id="Childrens Menu" className="food-title">
+        <section id="childrens-menu" className="food-title">
           <h2 className="menu-title">
-            Children’s Menu <span className="price-styling"> $5.95 each</span>
+            Children’s Menu <span className="price-styling"> 5.95 each</span>
           </h2>
           <p className="sides-styling">
           Crabby Patty,

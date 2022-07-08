@@ -77,9 +77,9 @@ body {
 
 .background-pics{
   background-color: #370624;
- height: 80vh;
+height: 80vh;
  width: 100vw;
- border: 3px solid black;
+ /* border: 3px solid black; */
  /* display: flex;
  align-items: center;
  justify-content: center; */
@@ -263,6 +263,9 @@ body {
   background-color: #370624;
   border: 4px solid black;
   z-index: 1;
+  height: 20vh;
+
+  
 }
 
 .footer-grid {
@@ -299,6 +302,11 @@ ul li {
 }
 
 /* Menu Styling */
+
+.main-section{
+  flex-grow: 1;
+  background-color: #370624;
+}
 
 .bgm-img-menu {
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.4)),
@@ -445,6 +453,7 @@ ul li {
 .feature-food-title{
   color: black;
   text-align: center;
+  
 }
 
 .feature-food-desc{
@@ -1036,20 +1045,20 @@ ul li {
   }
   
   .feature-food-div{
-    margin: 0;
+    margin: 0 1rem;
     
   }
   
   .feature-food-title{
     color: black;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
   
   .feature-food-desc{
     color: black;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .about-section{
@@ -1077,13 +1086,28 @@ ul li {
    
   }
 
-  
-  
   .about-people-flex p{
     font-size: 1rem;
     text-align: center;
     
   }
 
+  .food-2{
+    border-right: 3px solid black;
+    border-bottom: 1px solid black;
+   margin: 0 2.3rem;
+  }
+
+ #sides-section{
+  margin: 0 1rem;
+ }
+
+ #desserts-section{
+  margin: 0 1rem;
+ }
+
+ #childrens-menu{
+  margin: 0 1rem;
+ }
 
 }

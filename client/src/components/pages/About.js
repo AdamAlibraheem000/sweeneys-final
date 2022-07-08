@@ -1,9 +1,13 @@
-import React from "react";
+import {useEffect} from "react";
 import { Helmet } from "react-helmet";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
 
 export default function About() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   
   return (
     <>
@@ -26,10 +30,10 @@ export default function About() {
             > 
             8 W Franklin St, Dayton, OH 45459</a></p>
             <h1 className="italicized">Hours of Operation</h1>
-            <p> Monday's: Closed</p>
-             <p>Tuesday - Thursday's: 4pm - 9pm</p> 
-              <p>Friday's and Saturday's 4pm - 10pm</p>
-             <p>Sunday's 4pm - 8:30pm</p> 
+            <p> Monday Closed</p>
+             <p>Tuesday - Thursday: 4pm - 9pm</p> 
+              <p>Friday and Saturday 4pm - 10pm</p>
+             <p>Sunday 4pm - 8:30pm</p> 
             <h1 className="italicized">Holiday Hours</h1>
             <p>Closed on:</p>
             <p>Thanksgiving</p>
@@ -53,7 +57,7 @@ export default function About() {
               at Sweeney’s, she was responsible for all Food & Bar programs, as
               well as the Clubhouse itself and the Swimming Pool. Prior to that
               position she owned her own catering business for 11 year and was
-              with the Westin hotel Corporation. She chaired and continues to be
+              with the Westin Hotel Corporation. She chaired and continues to be
               active in the Miami Valley Club Managers Association of America as
               well as the Ohio Valley Club Managers Association of America and
               the Club Managers Association of America. She has lived in the
