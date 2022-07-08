@@ -415,7 +415,7 @@ export default function Menu() {
         </section>
         <section id="desserts-section" className="food-title">
           <h2 className="menu-title">
-            HOUSE-MADE Desserts <span className="price-styling"> 7 each</span>
+            HOUSE-MADE Desserts <span className="price-styling"> 7</span>
           </h2>
           <p className="sides-styling">
           Creme Brulee, Caramel Cheesecake, Chocolate Peanut Butter Pie, Keylime Pie, Check Features for Seasonal Desserts!
@@ -423,7 +423,7 @@ export default function Menu() {
         </section>
         <section id="childrens-menu" className="food-title">
           <h2 className="menu-title">
-            Children’s Menu <span className="price-styling"> 5.95 each</span>
+            Children’s Menu <span className="price-styling"> 5.95</span>
           </h2>
           <p className="sides-styling">
           Crabby Patty,

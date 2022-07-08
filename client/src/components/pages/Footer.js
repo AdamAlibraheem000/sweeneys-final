@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-grid full-footer">
         <ul className="contact">
-          <li>Phone: (937) 291-3474</li>
+          <li>(937) 291-3474</li>
           <br />
           <li>28 W Franklin St, Dayton, OH 45459</li>
           <li>Copyright © {new Date().getFullYear()} All Rights Reserved</li>
@@ -20,7 +20,7 @@ export default function Footer() {
       <div>
         <div className="mobile-footer">
           <ul className="contact width-half">
-            <li>Phone: (937) 291-3474</li>
+            <li>(937) 291-3474</li>
             <li>28 W Franklin St, Dayton, OH 45459</li>
           </ul>
           <ul className="operation width-half ">

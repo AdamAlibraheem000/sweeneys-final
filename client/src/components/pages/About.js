@@ -56,7 +56,7 @@ export default function About() {
               Country Club. When she resigned to become the day-to-day manager
               at Sweeney’s, she was responsible for all Food & Bar programs, as
               well as the Clubhouse itself and the Swimming Pool. Prior to that
-              position she owned her own catering business for 11 year and was
+              position she owned her own catering business for 11 years and was
               with the Westin Hotel Corporation. She chaired and continues to be
               active in the Miami Valley Club Managers Association of America as
               well as the Ohio Valley Club Managers Association of America and
