@@ -276,7 +276,7 @@ height: 80vh;
 .contact {
   display: flex;
   flex-direction: column;
-  grid-gap: 1rem;
+  
   color: #fff;
   font-size: 1.5rem;
   padding-top: 1rem;
@@ -649,12 +649,10 @@ ul li {
   }
 
   .contact {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* grid-gap: 1rem; */
+   
     color: #fff;
     font-size: 4vw !important;
-    /* padding-top: 1rem; */
+    
     text-shadow: 2px 1px 3px black;
   }
 

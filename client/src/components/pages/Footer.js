@@ -6,7 +6,6 @@ export default function Footer() {
       <div className="footer-grid full-footer">
         <ul className="contact">
           <li>(937) 291-3474</li>
-          <br />
           <li>28 W Franklin St, Dayton, OH 45459</li>
           <li>Copyright © {new Date().getFullYear()} All Rights Reserved</li>
         </ul>
