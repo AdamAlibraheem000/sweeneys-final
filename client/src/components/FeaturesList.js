@@ -17,7 +17,7 @@ const FeatureList = ({ articles }) => {
         <h1 className="feature-food-title" >{article.title}</h1>
         <p className="feature-food-desc" >{article.article}</p>
         <p className="feature-food-desc">
-            ${article.authorname}
+            {article.authorname}
         </p>
         </div>
     )))}  
