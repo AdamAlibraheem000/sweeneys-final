@@ -525,7 +525,12 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 7rem;
+  padding: 0 15rem;
+}
+
+.about-people-flex h2{
+  border-bottom: 3px solid black;
+  width: 60%;
 }
 
 .about-people-flex p{
@@ -1032,13 +1037,14 @@ ul li {
   }
   
   .feature-title{
-    margin: 0;
+    margin: 0 3rem;
+    
   }
   
   .feature-title h1{
     color: #370624;
     text-align: center;
-    font-size: 3.7rem;
+    font-size: 2.3rem;
     padding-top: 0.75rem;
     border-bottom: 4px solid black;
     
@@ -1046,6 +1052,7 @@ ul li {
   
   .feature-food-div{
     margin: 0 1rem;
+    padding-top: 1rem;
     
   }
   
@@ -1080,16 +1087,19 @@ ul li {
   .about-people-flex{
     display: flex;
     flex-direction: column;
-    
     padding: 0;
-
-   
   }
+
+
 
   .about-people-flex p{
     font-size: 1rem;
     text-align: center;
     
+  }
+
+  .about-location{
+    text-align: center;
   }
 
   .food-2{
@@ -1109,5 +1119,7 @@ ul li {
  #childrens-menu{
   margin: 0 1rem;
  }
+
+ 
 
 }
