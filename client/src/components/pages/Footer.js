@@ -30,9 +30,7 @@ export default function Footer() {
             <li >Sun: 4pm - 8:30pm</li>
           </ul>
         </div>
-        <span className='copyright float-right'>
-          Copyright © {new Date().getFullYear()} All Rights Reserved
-        </span>
+        
       </div>
     </footer>
   );

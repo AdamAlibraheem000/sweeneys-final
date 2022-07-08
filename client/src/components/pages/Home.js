@@ -22,7 +22,7 @@ export default function Home() {
       <FadeIn>
 
 
-       
+      <main className="main-section">       
         <Carousel className=" carousel-fade " >
          
           <Carousel.Item className="background-pics">
@@ -72,6 +72,7 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel> 
+        </main>
       </FadeIn>
     </>
   );
