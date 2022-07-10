@@ -1,7 +1,7 @@
 import React from "react";
 import spinner from '../../src/imgs/spinner.gif'
 
-const FeatureList = ({ articles }) => {
+const FeatureList = ({ features }) => {
 
     return (
         <section className='feature-grid'>
@@ -9,15 +9,15 @@ const FeatureList = ({ articles }) => {
                 <h1 >Dinner Features</h1>
             </div>
             <div>
-       {!articles.length ? (
+       {!features.length ? (
        <img src={spinner} alt="loading"/>
        ) : (
-        articles.map((article, key) => (
+        features.map((feature, key) => (
         <div className="feature-food-div" key={key}>
-        <h1 className="feature-food-title" >{article.title}</h1>
-        <p className="feature-food-desc" >{article.article}</p>
+        <h1 className="feature-food-title" >{feature.title}</h1>
+        <p className="feature-food-desc" >{feature.desc}</p>
         <p className="feature-food-desc">
-            {article.authorname}
+            {feature.price}
         </p>
         </div>
     )))}  
