@@ -4,21 +4,21 @@ import spinner from '../../imgs/spinner.gif'
 
 function Update() {
   const[title, setTitle] = useState('');
-  const[article, setArticle] = useState('');
-  const[authorname, setAuthorName] = useState('');
+  const[desc, setDesc] = useState('');
+  const[price, setPrice] = useState('');
 
   const [features, setFeatures] = useState([]);
 
   useEffect(()=> {
-      axios.get('/articles')
+      axios.get('/features')
     .then(res => setFeatures(res.data))
     .catch(error => console.log(error));
     
   },[features])
 
-  // Delete article by ID
-  const deleteArticle = id  => {
-    axios.delete(`/articles/${id}`)
+  // Delete feature by ID
+  const deleteFeature = id  => {
+    axios.delete(`/features/${id}`)
     .then(res => console.log(res.data))
     
   }
@@ -27,19 +27,19 @@ function Update() {
     e.preventDefault();
 
     // Get Values from form
-    const articles ={
+    const features ={
       title,
-      article,
-      authorname
+      desc,
+      price
     }
 
     // Clear form values
     setTitle('')
-    setArticle('')
-    setAuthorName('')
+    setDesc('')
+    setPrice('')
 
     // Send to database
-    axios.post("/articles/add", articles)
+    axios.post("/features/add", features)
     .then(res => console.log(res.data))
     .catch(err => console.log(err));
   }
@@ -62,42 +62,42 @@ function Update() {
     />
   </div>
   <div className="form-group">
-    <label htmlFor='article'>Desc</label>
+    <label htmlFor='desc'>Desc</label>
     <textarea 
     className="form-control" 
     rows="3"
-    value={article}
+    value={desc}
     placeholder="Enter Description"
-    onChange={e => setArticle(e.target.value)}
+    onChange={e => setDesc(e.target.value)}
     ></textarea>
   </div>
   <div className="form-group">
-    <label htmlFor="authorname">Price</label>
+    <label htmlFor="price">Price</label>
     <input 
     type="text"
-    value={authorname} 
+    value={price} 
     className="form-control"  
     placeholder="Enter Price"
-    onChange={e => setAuthorName(e.target.value)}
+    onChange={e => setPrice(e.target.value)}
     />
   </div>
   
   
-  <button type="submit" className="btn btn-primary">Post Article</button>
+  <button type="submit" className="btn btn-primary">Post Feature</button>
 </form>
 </section>
 <section className='update-list'>
        {!features.length ? (
        <img src={spinner} alt="loading"/>
        ) : (
-    features.map((article, key) => (
+    features.map((feature, key) => (
         <div className='feature-border' key={key}>
-        <p >{article.title}</p>
-        <p >{article.article}</p>
+        <p >{feature.title}</p>
+        <p >{feature.desc}</p>
         <p >
-            {article.authorname}
+            {feature.price}
         </p>
-        <button onClick={() => deleteArticle(article._id)}>Delete</button>
+        <button onClick={() => deleteFeature(feature._id)}>Delete</button>
         
         </div>
     )))}  

@@ -30,8 +30,8 @@ const connection = mongoose.connection;
 connection.once("open", () => 
  console.log("Mongo connected"))
 
- const articlesRouter = require('./routes/articles');
- app.use('/articles',articlesRouter);
+ const featuresRouter = require('./routes/features');
+ app.use('/features',featuresRouter);
 
  if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '../client/build')));
