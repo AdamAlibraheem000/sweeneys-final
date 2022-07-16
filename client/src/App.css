@@ -400,6 +400,20 @@ ul li {
   padding-right: 2px;
 }
 
+.craft-beer-styling{
+  text-align: center;
+  margin: 20px;
+  border-right: 3px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  padding-right: 2px;
+}
+
+.craft-beer-styling h5{
+  font-size: 1.5rem;
+  color: black;
+}
+
 .food-2 {
   text-align: center;
   color: black;

@@ -28,6 +28,7 @@ export default function Bar() {
             <li><a href="#specialty-beers">Specialty Beers</a></li>
             <li><a href="#domestic">Domestic Beers</a></li>
             <li><a href="#import">Imported Beers</a></li>
+            <li><a href="#craft">Rotating Craft Beers</a></li>
           </ul>
         </div>
       </article>
@@ -220,7 +221,7 @@ export default function Bar() {
 
         {/* <!-- Domestic --> */}
         <h2 className="menu-title">Domestic Beers 3.75</h2>
-        <section id="salad" className="food-item-grid">
+        <section id="domestic" className="food-item-grid">
           <div className="food">
             <h5>Budweiser</h5>
             
@@ -256,7 +257,7 @@ export default function Bar() {
 
         {/* <!-- Import --> */}
         <h2 className="menu-title">Import Beers 4.75</h2>
-        <section id="salad" className="food-item-grid">
+        <section id="import" className="food-item-grid">
           <div className="food">
             <h5>Amstel Light</h5>
             
@@ -275,6 +276,12 @@ export default function Bar() {
           </div>
           <div className="food">
             <h5>Clausthaler(N/A)</h5>
+          </div>
+        </section>
+        <h2 className="menu-title">Rotating Craft Beers</h2>
+        <section id="craft" >
+          <div className="craft-beer-styling">
+            <h5>Chosen by Doug and paired to the restaurant’s menu items and presented on informative “chalkboard” menus providing APV, IPU, size and price</h5>
           </div>
         </section>
         </FadeIn>

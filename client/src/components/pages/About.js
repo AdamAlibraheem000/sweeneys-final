@@ -19,16 +19,16 @@ export default function About() {
         <FadeIn>
           <div className="about-people">
             <article className="about-hours-flex">
-            <p className="about-location">Sweeney's Seafood is located in the heart of Centerville's historic
+            <p className="about-location">Sweeney's Seafood Bar & Grill is located in the heart of Centerville's historic
               district.  
             </p>
             <p>Parking located in rear of building.</p>
             <p>Phone: (937) 291-3474 </p>
-            <p><a href="https://www.google.com/maps/place/8+W+Franklin+St,+Washington+Township,+OH+45459/@39.6282555,-84.161469,17z/data=!3m1!4b1!4m5!3m4!1s0x88408ee202bb3c83:0x26f79a12a106c16b!8m2!3d39.6282555!4d-84.1592803" 
+            <p><a href="https://www.google.com/maps/place/28+W+Franklin+St,+Washington+Township,+OH+45459/@39.6281002,-84.1621482,17z/data=!3m1!4b1!4m5!3m4!1s0x88408ee1f1e6ace7:0x8062e0e52aba8bb!8m2!3d39.6281002!4d-84.1599595" 
             target="_blank"
             rel="noopener noreferrer"
             > 
-            8 W Franklin St, Dayton, OH 45459</a></p>
+            28 W Franklin St, Dayton, OH 45459</a></p>
             <h1 className="italicized">Hours of Operation</h1>
             <p> Monday Closed</p>
              <p>Tuesday - Thursday: 4pm - 9pm</p> 
@@ -85,11 +85,7 @@ export default function About() {
               Is a former practicing attorney and consultant and worked
               extensively in the legal/business publishing field (LexisNexis).
               She has held many positions within LexisNexis and retired as
-              Senior Vice President, US Marketing in 2006. She has sat on the
-              board of the University of Dayton School of Law and continues to
-              serve on the St. Vincent de Paul Community Board and the Dayton
-              Metro Library Foundation Board. She has lived and worked in the
-              Dayton area since 1994.
+              Senior Vice President, US Marketing in 2006. She has sat on the Board of the University of Dayton School of Law and the St. Vincent de Paul Community Board and continues to serve as Treasurer on the Dayton Metro Library Board.
             </p>
             </article>
             </div>
