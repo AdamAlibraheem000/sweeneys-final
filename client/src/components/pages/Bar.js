@@ -281,7 +281,8 @@ export default function Bar() {
         <h2 className="menu-title">Rotating Craft Beers</h2>
         <section id="craft" >
           <div className="craft-beer-styling">
-            <h5>Chosen by Doug and paired to the restaurant’s menu items and presented on informative “chalkboard” menus providing APV, IPU, size and price</h5>
+            <h5>Chosen by Doug and paired to the restaurant’s menu items.</h5>
+            <h5>Presented on informative “chalkboard” menus providing APV, IPU, size and price.</h5>
           </div>
         </section>
         </FadeIn>
