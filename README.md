@@ -2,7 +2,7 @@
 
 <h1 align="center">Sweeney's Seafood</h1>
 Website can be found at: 
-https://tranquil-glacier-bay-35263.herokuapp.com/
+https://www.sweeneyseafood.com/
 
 <div align="center">
 
