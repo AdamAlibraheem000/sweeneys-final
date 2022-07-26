@@ -1132,6 +1132,11 @@ ul li {
   margin: 0 1rem;
  }
 
+ .not-found-div h1{
+  color: black;
+  font-size: 3rem;
+}
+
  
 
 }
