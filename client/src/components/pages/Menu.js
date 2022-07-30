@@ -423,7 +423,7 @@ export default function Menu() {
         </section>
         <section id="childrens-menu" className="food-title">
           <h2 className="menu-title">
-            Children’s Menu <span className="price-styling"> 5.95</span>
+            Children’s Menu <span className="price-styling"> 9.00</span>
           </h2>
           <p className="sides-styling">
           Crabby Patty,
