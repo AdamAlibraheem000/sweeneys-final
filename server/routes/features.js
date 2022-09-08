@@ -47,7 +47,7 @@ router.put('/update/:id', (req, res) => {
 
 
 // Delete feature
-router.delete('/:id', (req, res) => {
+router.delete('/delete/:id', (req, res) => {
     Features.findByIdAndDelete(req.params.id)
     .then(() => res.json("The feature is deleted"))
     .catch(err => res.status(400).json(`Error: ${err}`))

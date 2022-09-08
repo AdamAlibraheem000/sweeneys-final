@@ -9,17 +9,31 @@ function Update() {
 
   const [features, setFeatures] = useState([]);
 
+
+    const getFeatures = async () => {
+      const {data} = await axios.get('/features');
+      setFeatures(data);
+    }
+
   useEffect(()=> {
-      axios.get('/features')
-    .then(res => setFeatures(res.data))
-    .catch(error => console.log(error));
+    //   axios.get('/features')
+    // .then(res => setFeatures(res.data))
+    // .catch(error => console.log(error));
+    getFeatures();
     
-  },[features])
+  },[])
 
   // Delete feature by ID
-  const deleteFeature = id  => {
-    axios.delete(`/features/${id}`)
-    .then(res => console.log(res.data))
+  const deleteFeature = async id  => {
+    // axios.delete(`/features/${id}`)
+    // .then(res => console.log(res.data))
+
+    await axios.delete(`/features/delete/${id}`);
+
+    const data = id;
+    console.log(id);
+    
+    setFeatures(features => features.filter(feature => feature._id !== data))
     
   }
 
@@ -27,7 +41,7 @@ function Update() {
     e.preventDefault();
 
     // Get Values from form
-    const features ={
+    const newFeature ={
       title,
       desc,
       price
@@ -39,9 +53,12 @@ function Update() {
     setPrice('')
 
     // Send to database
-    axios.post("/features/add", features)
+    axios.post("/features/add", newFeature)
     .then(res => console.log(res.data))
     .catch(err => console.log(err));
+
+    setFeatures([...features, newFeature])
+    // getFeatures();
   }
 
 
