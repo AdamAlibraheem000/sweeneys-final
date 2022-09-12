@@ -1,3 +1,4 @@
+Updated local restaurant's website using the MERN stack. React Express.js Node.js MongoDB
 <p align="center"><img width=200px height=200px alt="Project logo" src="./client/src/imgs/SLogo.jpg" alt="Sweeney's Logo"></p>
 
 <h1 align="center">Sweeney's Seafood</h1>
