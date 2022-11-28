@@ -28,8 +28,8 @@ export default function Home() {
           <Carousel.Item className="background-pics">
             <img className="scroll-pics" src={outsidePic} alt="" />
              <Carousel.Caption className="carousel-flex">
-              <h1 className="title-font">Rated Best Seafood</h1>
-              <h1 className="sub-title">In Dayton</h1>
+              <h1 className="title-font">Permanently closing</h1>
+              <h1 className="sub-title">Dec 3rd</h1>
             </Carousel.Caption>
           </Carousel.Item>
         
@@ -40,8 +40,8 @@ export default function Home() {
               alt="Sweeney's Fish Mascot"
             />
             <Carousel.Caption className="carousel-flex">
-              <h1 className="title-font">Located In The Heart </h1>
-              <h1 className="sub-title">Of Centerville’s Historic District</h1>
+              <h1 className="title-font">Permanently closing </h1>
+              <h1 className="sub-title">Dec 3rd</h1>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -53,7 +53,7 @@ export default function Home() {
             />
             <Carousel.Caption>
               <div className="carousel-flex">
-                <h1 className="dan-font">Come Visit Doug's Bar...</h1>
+                <h1 className="dan-font">Come Visit Doug's Bar for the last time...</h1>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -66,7 +66,7 @@ export default function Home() {
             <Carousel.Caption>
               <div className="carousel-flex">
                 <h1 className="dansub-title">
-                  With a wide variety of Liquors, Wine, and Craft Beers.
+                Permanently closing Dec 3rd
                 </h1>
               </div>
             </Carousel.Caption>
