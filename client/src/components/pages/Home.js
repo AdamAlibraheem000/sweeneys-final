@@ -28,8 +28,8 @@ export default function Home() {
           <Carousel.Item className="background-pics">
             <img className="scroll-pics" src={outsidePic} alt="" />
              <Carousel.Caption className="carousel-flex">
-              <h1 className="title-font">Permanently closing</h1>
-              <h1 className="sub-title">Dec 3rd</h1>
+              <h1 className="title-font">Permanently closing Dec 3rd</h1>
+              <h1 className="sub-title"></h1>
             </Carousel.Caption>
           </Carousel.Item>
         
