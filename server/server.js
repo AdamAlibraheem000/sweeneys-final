@@ -34,11 +34,17 @@ connection.once("open", () =>
  app.use('/features',featuresRouter);
 
  if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, '../client/build/index.html')));
+    app.use(express.static(path.join(__dirname, '../client/build')));
+
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(__dirname, '../', "client", "build", "index.html"));
+    })
   }
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-  });
+  else{
+    app.get('/', (req, res) => {
+      res.status(200).json({message: "Welcome Sweeney's seafood"})
+    })
+  }
 
 app.listen(port, () => console.log(`App running on port ${port}`));
 
