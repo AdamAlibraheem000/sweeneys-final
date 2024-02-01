@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/AdamAlibraheem000/Sweeney-Seafood/issues"
   },
-  "homepage": "https://sweeneyseafood.com",
+  "homepage": "https://sweeneys-8c9464562eab.herokuapp.com/",
   "devDependencies": {
     "concurrently": "^7.1.0",
     "gh-pages": "^3.2.3"
