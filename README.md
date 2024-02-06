@@ -3,7 +3,7 @@ Updated local restaurant's website using the MERN stack. React Express.js Node.j
 
 <h1 align="center">Sweeney's Seafood</h1>
 Website can be found at: 
-https://www.sweeneyseafood.com/
+(https://sweeneys-8c9464562eab.herokuapp.com/)
 
 <div align="center">
 
